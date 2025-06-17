@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+   background-color: rgb(230, 72, 106);
+    border-radius: 8px; 
+}
+h1, h2, h3, p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.registration-container{
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+}
+button{
+    background-color: rgb(230, 72, 106);
+     border-radius: 8px;
+}
+
+footer{
+    background-color: rgb(230, 72, 106);
+    border-radius: 8px;
+}
+.gm{
+    background-color: rgb(230, 72, 106);
+    border-radius: 8px;
+
+}
+.char{
+    background-color: rgb(230, 72, 106);
+    border-radius: 8px ;
+}
+.reg{
+    font-size: 15px;
+    text-align: center;
+}
+
+button:hover{
+    color: white;
+   background-color: rgb(230, 72, 106);
+}
+ul{
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.role{
+   text-align: center;
+}
+.Composer{
+    text-align: center;
+}
+.TheMindEye{
+    text-align: center;
+}
+.Eli{
+    text-align: center;
+}
+.priestess{
+    text-align: center;
+}
+.acrobat{
+    text-align: center;
+}
+.enchantress{
+    text-align: center;
+}
+.mat{
+    text-align: center;
+}
+.mecren{
+    text-align: center;
+}
+
+.xi{
+    background-color: rgb(230, 72, 106);
+    border-radius: 8px;
+}
+.x{
+    background-color: rgb(230, 72, 106);
+    color:
+     rgb(255, 255, 255);
+}
+.xiu{
+    background-color: rgb(230, 72, 106);
+
+}
+.logo{
+    text-align: center;
+}
+
+
+.like-dislike {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.like-btn, .dislike-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f0f0f0;
+  transition: 0.3s;
+}
+
+.like-btn:hover {
+  background-color: #d0f0d0;
+}
+
+.dislike-btn:hover {
+  background-color: #f8d0d0;
+} 
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  .cta-btn {
+    width: 300px;
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .header-logo {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+  }
+
+  .card {
+    max-width: 90%;
+    padding: 24px;
+  }
+
+  .reviews {
+    padding: 40px 20px;
+    margin: 40px 20px;
+  }
+
+  .modal-content {
+    padding: 24px;
+  }
+
+  .modal-content input {
+    padding: 12px;
+    font-size: 16px;
+  }
+} 
